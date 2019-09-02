@@ -1,0 +1,9 @@
+{
+  "name": "named-exports-db",
+  "version": "0.0.1",
+  "description": "https://github.com/rollup/rollup-plugin-commonjs/issues/125",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Wei Zhu <yesmeck@gmail.com>",
+  "license": "MIT"
+}
