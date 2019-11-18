@@ -2,7 +2,7 @@ name: Node.js Package
 
 on:
   push:
-    branches:    
+    branches:
       - master
 
 jobs:
@@ -16,12 +16,12 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: git remote add upstream https://${GITHUB_TOKEN}@github.com/umijs/es5-imcompatible-versions.git
+      - run: git remote add upstream https://${{ GITHUB_TOKEN }}@github.com/umijs/es5-imcompatible-versions.git
       - run: git config --global user.email "yesmeck@gmail.com"
       - run: git config --global user.name "Wei Zhu"
       - run: npm version patch -m "Bump version [ci skip]"
       - run: git push upstream master --tags
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
