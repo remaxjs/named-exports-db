@@ -79,4 +79,25 @@ module.exports = {
     'isStrictMode',
     'isSuspense',
   ],
+  '@ali/recore-miniapp': [
+    /* common */
+    'version',
+    /* core */
+    'ViewController',
+    'compose',
+    'destroy',
+    'inject',
+    'runApp',
+    'autorun',
+    /* obx */
+    'obx',
+    'obxProperty',
+    'xid',
+    'xModifiers',
+    'nextTick',
+    '$get',
+    '$set',
+    '$del',
+    '$extend',
+  ],
 };
