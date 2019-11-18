@@ -16,10 +16,10 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: npm version patch -m "Bump version [ci skip]"
       - run: git remote add upstream https://${GH_TOKEN}@github.com/umijs/es5-imcompatible-versions.git
       - run: git config --global user.email "yesmeck@gmail.com"
       - run: git config --global user.name "Wei Zhu"
+      - run: npm version patch -m "Bump version [ci skip]"
       - run: git push upstream master --tags
       - run: npm publish
         env:
