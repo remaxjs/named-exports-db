@@ -100,4 +100,5 @@ module.exports = {
     '$del',
     '$extend',
   ],
+  swr: ['trigger', 'mutate', 'SWRConfig', 'default', 'useSWRPages'],
 };
