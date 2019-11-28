@@ -92,7 +92,7 @@ module.exports = {
     /* obx */
     'obx',
     'obxProperty',
-    'xid',
+    'xId',
     'xModifiers',
     'nextTick',
     '$get',
