@@ -29,7 +29,7 @@ module.exports = {
     'isValidElement',
     'version',
     'unstable_withSuspenseConfig',
-    '__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED',
+    '__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED'
   ],
   scheduler: [
     'unstable_now',
@@ -47,7 +47,7 @@ module.exports = {
     'unstable_shouldYield',
     'unstable_continueExecution',
     'unstable_pauseExecution',
-    'unstable_getFirstCallbackNode',
+    'unstable_getFirstCallbackNode'
   ],
   'react-is': [
     'typeOf',
@@ -77,7 +77,7 @@ module.exports = {
     'isPortal',
     'isProfiler',
     'isStrictMode',
-    'isSuspense',
+    'isSuspense'
   ],
   '@ali/recore-miniapp': [
     /* common */
@@ -98,7 +98,7 @@ module.exports = {
     '$get',
     '$set',
     '$del',
-    '$extend',
+    '$extend'
   ],
   swr: ['trigger', 'mutate', 'SWRConfig', 'default', 'useSWRPages'],
   'prop-types': [
@@ -122,6 +122,7 @@ module.exports = {
     'exact',
     'checkPropTypes',
     'resetWarningCache',
-    'PropTypes',
+    'PropTypes'
   ],
+  eventemitter3: ['EventEmitter']
 };
