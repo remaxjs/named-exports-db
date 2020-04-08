@@ -252,21 +252,5 @@ module.exports = {
     'getMessage',
     'FormValidator',
   ],
-  immer: [
-    'Immer',
-    'applyPatches',
-    'createDraft',
-    'default',
-    'finishDraft',
-    'immerable',
-    'isDraft',
-    'isDraftable',
-    'nothing',
-    'original',
-    'produce',
-    'produceWithPatches',
-    'setAutoFreeze',
-    'setUseProxies',
-  ],
   /** formily related end */
 };
